@@ -1,0 +1,22 @@
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyAyQTju1OKrggHYQWXHNBdJTfbiqXMiwVU",
+  authDomain: "food-delivery-app-969bc.firebaseapp.com",
+  databaseURL: "https://food-delivery-app-969bc-default-rtdb.firebaseio.com",
+  projectId: "food-delivery-app-969bc",
+  storageBucket: "food-delivery-app-969bc.appspot.com",
+  messagingSenderId: "753953331183",
+  appId: "1:753953331183:web:d1b7e85e74b042a4a5081a",
+  measurementId: "G-2GL28Z03JP"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
